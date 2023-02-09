@@ -1,13 +1,15 @@
+/*Sets the elements of the page to have no padding or margin,
+also adjusts the elements size so article and aside fit neatly.*/
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Overrides the background color of the browser.*/
 body {
     background-color: #d9dcd6;
 }
-
+/*Adjusts the padding, font style, font color, and background color of the header element.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,7 +54,7 @@ p {
 
 .hero {
     height: 800px;
-    width: 100%;
+    /* width: 100%;  may not need*/
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -194,7 +196,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Setting footer font size */
 .footer h2 {
     font-size: 20px;
 }
