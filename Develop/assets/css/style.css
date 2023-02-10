@@ -1,31 +1,30 @@
-/*Sets the elements of the page to have no padding or margin,
-also adjusts the elements size so article and aside fit neatly.*/
+/*Setting the elements of the page to have no padding or margin, also adjusting the elements size so article and aside fit neatly.*/
 * {
     box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
-/*Overrides the background color of the browser.*/
+/*Overrides the background color of the browser for the body tag.*/
 body {
     background-color: #d9dcd6;
 }
-/*Adjusts the padding, font style, font color, and background color of the header element.*/
+/*Setting the padding, font style, font color, and background color of the header class.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Setting the header class,specified to the h2 tag, with a display of inline block and a font size of 48px. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Setting the header class, specified to the h1 tag and the seo class, to change the color of the text.  */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Setting the header class, specified to the nav tag, padding, margin, font size and font family with a value. Pushing nav content to the right side of the container. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,50 +32,50 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Setting the header class, specified to the nav and ul tag, to list type of none */
 .header nav ul {
     list-style-type: none;
 }
-
+/* Setting the header class, specified to (nav, ul, li), with a display of inline block and a margin on the left of 25px */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Setting the a tag's color and removes any format on it */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Does not change style on page when commented out, changing font size of the p tag to 16px */
 p {
     font-size: 16px;
 }
-
+/* Setting the hero class with attributes and their values. */
 .hero {
     height: 800px;
-    /* width: 100%;  may not need*/
+    width: 100%;  /*may not need*/
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/* Pushing the two imgs with this class to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Pushing the img with this class to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Setting the content class with the below attributes and their values */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Setting the benefits class with the below attributes and their values */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,7 +86,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Setting the styling for the three classes below */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,7 +101,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Setting the styling of the three h3 tags for the classes below */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -117,7 +116,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Setting the styling of the three images in the classes below */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -135,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Setting the 3 classes with the same styling and values */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Setting the height of the three images with the below ids */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -174,7 +173,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Setting the values of the three h2 tags for the below classes */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -189,14 +188,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Setting the footer's padding and font family to the value. Aligning text to the center.  */
 .footer {
     padding: 30px;
-    clear: both;
+    clear: both; /*Does not alter page*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* Setting footer font size */
+/* Setting footer's, specified to h2 tag, font size */
 .footer h2 {
     font-size: 20px;
 }
